@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Plants</title>
 </head>
 <body>
   <header class="header">
     <div class="wrapper">
-      <a href="/" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
-      <nav class="header__nav">
-        <ul class="nav">
-          <li><a href="#Home" class="nav__link1">Home</a></li>
-          <li><a href="#About us" class="nav__link2">About Us</a></li>
-          <li><a href="#Servise" class="nav__link3">Servise</a></li>
-          <li><a href="#Price" class="nav__link4">Price</a></li>
-          <li><a href="#Contacts" class="nav__link5">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="header__logo">
+        <a href="/" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
+        <nav class="header__nav">
+          <ul class="nav">
+            <li class="header__item"><a href="#Home" class="nav__link__home">Home</a></li>
+            <li class="header__item"><a href="#About us" class="nav__link">About Us</a></li>
+            <li class="header__item"><a href="#Servise" class="nav__link">Servise</a></li>
+            <li class="header__item"><a href="#Price" class="nav__link">Price</a></li>
+            <li class="header__item"><a href="#Contacts" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>  
     </div>
   </header>
   <section class="welcome">
     <div class="wrapper">
-        <div id="img_leaf">
+        <div id="img__leaf">
         <img alt="leaf" src="./img/leafs.jpg" width=448.8 
         height=407.36>
         </div>
-        <div class="promo_content">
+        <div class="promo__content">
             <h1>We grow <span class="green_text"> plants </span> and give you oxygen</h1>
-            <p class="text_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar ipsum mauris, ac elementum felis convallis non. Duis aliquam felis vel dignissim tincidunt. In tellus mauris, tempor rutrum blandit in, efficitur ac quam. Mauris eu orci scelerisque, placerat eros id, condimentum justo. Suspendisse ac mattis orci, at mollis orci.</p>
+            <p class="text__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar ipsum mauris, ac elementum felis convallis non. Duis aliquam felis vel dignissim tincidunt. In tellus mauris, tempor rutrum blandit in, efficitur ac quam. Mauris eu orci scelerisque, placerat eros id, condimentum justo. Suspendisse ac mattis orci, at mollis orci.</p>
         </div>
     </div>
   </section>
   <section class="about">
     <div class="wrapper">
-        <div class="about_content">
+        <div class="about__content">
             <h2>We are <span class="red_text"> professional experienced</span> gardeners</h2>
             <p class="text_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar ipsum mauris, ac elementum felis convallis non. Duis aliquam felis vel dignissim tincidunt. In tellus mauris, tempor rutrum blandit in, efficitur ac quam. Mauris eu orci scelerisque, placerat eros id, condimentum justo. Suspendisse ac mattis orci, at mollis orci.</p>
         </div>
-        <div class="img_flower pot">
+        <div class="img__flower pot">
             <img alt="flower pot" src="./img/houseplant 1.jpg" width=464;
             height=479>
         </div>
@@ -48,7 +50,7 @@
   </section>
   <section class="service">
     <div class="wrapper">
-        <div class="service_content">
+        <div class="service__content">
             <h2>Service and our projects</h2>
         </div>
         <div class="service__buttons">
@@ -56,8 +58,8 @@
             <button>Lawn</button>
             <button>Planting</button>
         </div>
-        <div class="layout-3-column">
-            <div class="service_block">
+        <div class="layout__3column">
+            <div class="service__block">
               <img src="./img/servise_1.jpeg" alt="garden care" width=329 height=350>
               <p class="name__block">Garden care</p>
               <p>Lorem ipsum dolor sit amet</p>
@@ -86,40 +88,46 @@
     </div>
   </section>
   <section class="prices">
-    <div class="prices_left_bar">
-        <b>Prices</b>
-        <div class="prices_item">
-            <div class="prices__items">
-                <div class="item_like_button1"><b>Basics</b></div>
-                <div class="item_like_button2"><b>Standard</b></div>
-                <div class="item_like_button3"><b>Pro care</b></div>
-            </div>
-        </div>
-    </div>
-    <div class="text_call_us">
-        <b>Our best <span class="green_text">gardeners</span> are ready to help you</b>
-        <button class="button_contact_us">Сontact us</button>  
-    <img alt="leafs" src="./img/leafs.jpg" width=152 
-    height=174.99>
-    </div>
+    <div class="wrapper">
+      <div class="prices__left__bar">
+          <b>Prices</b>
+          <div class="prices__item">
+              <div class="prices__items">
+                  <div class="item_like_button1"><b>Basics</b></div>
+                  <div class="item_like_button2"><b>Standard</b></div>
+                  <div class="item_like_button3"><b>Pro care</b></div>
+              </div>
+          </div>
+      </div>
+      <div class="text__call__us">
+          <b>Our best <span class="green_text">gardeners</span> are ready to help you</b>
+          <button class="button__contact__us">Сontact us</button>  
+      <img alt="leafs" src="./img/leafs.jpg" width=152 
+      height=174.99>
+      </div>
+    </div>  
   </section>
   <section class="contacts">
-    <h2 class="contact_us">Contact us</h2>
-    <container-contacts></container-contacts>
-    <img src="./img/contact_woman 1.jpg" alt="woman with flower" width=400 
-    height=496.99>
+    <div class="wrapper">
+      <h2 class="contact__us">Contact us</h2>
+      <container-contacts></container-contacts>
+      <img src="./img/contact_woman 1.jpg" alt="woman with flower" width=400 
+      height=496.99>
+    </div>
   </section>
   <footer>
-    <div class="content">
-        <div class="footer_data">@ 2022 github</div>
-        <div class="rss">Rolling Scopes School</div> 
-        <div class="social_list">
-            <a href="http://instagram.com" class="insta" title="instagram_link" target="_blank"><img src="./png/insta.png" alt="vector_instagram"></a>
-            <a href="http://facebook.com" class="facebook" title="facebook_link" target="_blank"><img src="./png/fb 1.png" alt="vector_facebook"></a>
-            <a href="http://twitter.com" class="twitter" title="twitter_link" target="_blank"><img src="./png/tw.png" alt="vector_twitter"></a>
-            <a href="http://pinterest.com" class="pinterest" title="pinterest_link" target="_blank"><img src="./png/pin.png" alt="vector_pinterest"></a>
-        </div>
-    </div>
+    <div class="wrapper">
+      <div class="content">
+          <div class="footer__data">@ 2022 github</div>
+          <div class="rss">Rolling Scopes School</div> 
+          <div class="social__list">
+              <a href="http://instagram.com" class="insta" title="instagram_link" target="_blank"><img src="./png/insta.png" alt="vector_instagram"></a>
+              <a href="http://facebook.com" class="facebook" title="facebook_link" target="_blank"><img src="./png/fb 1.png" alt="vector_facebook"></a>
+              <a href="http://twitter.com" class="twitter" title="twitter_link" target="_blank"><img src="./png/tw.png" alt="vector_twitter"></a>
+              <a href="http://pinterest.com" class="pinterest" title="pinterest_link" target="_blank"><img src="./png/pin.png" alt="vector_pinterest"></a>
+          </div>
+      </div>
+    </div>  
   </footer>
 </body>
 </html>
