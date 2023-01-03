@@ -101,7 +101,7 @@ html{
 }
 
 body{
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-size: 20px;
     line-height: 1.2;
@@ -109,7 +109,7 @@ body{
     color: #717171;
 }
 .wrapper{
-    max-width: 1440px;
+    max-width: 1222px;
     margin: 0 auto;
 }
 
@@ -124,6 +124,40 @@ body{
     background-color: #EDF2EC;
 }
 
+.header__logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo{
+text-decoration-line: none;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item{
+    margin-right: 46px;
+}
+
+.header__item:last-child{
+    margin-right: 0px;
+}
+
+.nav__link{
+    text-decoration-line: none;
+}
+
+.nav__link__home{
+    font-weight: 700;
+    color: #E06733;
+    text-decoration-line: none
+}
+
 h1{
     font-weight: 700;
     font-size: 45px;
@@ -131,7 +165,7 @@ h1{
     color: #717171;
 }
 
-.text_content{
+.text__content{
     font-size: 20px;
     line-height: 35px;
     color: #636060;
@@ -141,7 +175,7 @@ h1{
     color: #499A18;
 }
 
-.service_block{
+.service__block{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -181,7 +215,7 @@ h2{
     color: #E06733;
 }
 
-.text_call_us{
+.text__call__us{
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -201,7 +235,7 @@ font-size: 20px;
 line-height: 20px;
 }
 
-.contact_us{
+.contact__us{
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
@@ -217,7 +251,7 @@ line-height: 20px;
     color: #000000;
 }
 
-.button_contact_us{
+.button__contact__us{
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
