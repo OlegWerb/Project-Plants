@@ -1,9 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe, h1, h2
 h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -47,52 +42,8 @@ table {
 	border-spacing: 0;
 }
 
-/* inter-regular - latin */
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* inter-700 - latin */
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+/* start page */
 
-  /* inika-regular - latin */
-@font-face {
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/inika-v21-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/inika-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/inika-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/inika-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/inika-v21-latin-regular.svg#Inika') format('svg'); /* Legacy iOS */
-  }
-
-  /* inika-700 - latin */
-  @font-face {
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/inika-v21-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/inika-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/inika-v21-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
-  }
 html{
     box-sizing: border-box;
 }
@@ -101,7 +52,7 @@ html{
 }
 
 body{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 1.2;
@@ -113,13 +64,14 @@ body{
     margin: 0 auto;
 }
 
+/* start header */
+
 .header{
-    font-family: 'Inika';
+    font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
-    /* identical to box height, or 312% */
     color: #010201;
     background-color: #EDF2EC;
 }
@@ -129,10 +81,13 @@ body{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
 }
 
 .logo{
 text-decoration-line: none;
+color: #010201;
 }
 
 .nav{
@@ -150,6 +105,11 @@ text-decoration-line: none;
 
 .nav__link{
     text-decoration-line: none;
+    color: #010201;
+}
+
+.nav__link:hover{
+    opacity: 0.75;
 }
 
 .nav__link__home{
@@ -158,11 +118,40 @@ text-decoration-line: none;
     text-decoration-line: none
 }
 
+/* end header */
+/* start welcome */
+
+.welcome{
+    background-color: #EDF2EC;
+    
+}
+
+.wrapper__welcome{
+   display: flex;
+}
+
+#img__leaf{
+    padding: 62px 224.2px 62.64px 0px; 
+}
+
+.promo__content{
+   padding: 98px 104px 92px 0px;
+}
+
+.h1__block{
+    width: 549px;
+    height: 101px;
+}
+
 h1{
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
     color: #717171;
+}
+
+.text__block{
+    padding-top: 42px;
 }
 
 .text__content{
@@ -175,8 +164,75 @@ h1{
     color: #499A18;
 }
 
-.service__block{
+.btn__learn__more{
+    padding-top: 48px;
+}
+
+.learn__more{
+    box-sizing: border-box;
+    width: 158px;
+    height: 44px;
+    left: 782px;
+    top: 394px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration-line: none
+}
+
+/* end welcome */
+/* start about */
+
+.about{
+   
+    background-color: #FFFFFF;
+}
+
+.about__wrapper{
+    display: flex;
+}
+
+.about__content{
+    padding: 161px 153px 155px 0px;
+}
+
+h2{
+    padding-right: 142px;
+    padding-bottom: 40px;
+    color: #499A18;
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.img__flower__pot{
+    padding-top: 93px;
+    padding-bottom: 94px;
+}
+
+.text_content{
+    line-height: 30px;
+}
+.red_text{
+    color: #E06733;
+}
+
+/* end about */
+/* start service */
+
+.service{
+    background-color: #EDF2EC;
+}
+
+.service__block{
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -185,7 +241,7 @@ h1{
 }
 
 .name__block{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -193,8 +249,11 @@ h1{
     color: #E06733;
 }
 
+/* end service */
+/* start prices */
+
 button{
-    font-family: 'Inika';
+    font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -202,16 +261,13 @@ button{
     color: #E06733;
 }
 
-h2{
-    color: #499A18;
-    font-family: 'Inika';
+.button__contact__us{
+    font-family: 'Inika', serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-}
-
-.red_text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
     color: #E06733;
 }
 
@@ -221,6 +277,15 @@ h2{
     line-height: 50px;
     text-align: right;
     color: #000000;
+}
+
+.prices{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#000000;
 }
 
 .prices_left_bar{
@@ -235,14 +300,20 @@ font-size: 20px;
 line-height: 20px;
 }
 
+/* end prices */
+/* start contacts */
+
 .contact__us{
-    font-family: 'Inika';
+    font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
 }
+
+/* end contacts */
+/* start footer */
 
 .content{
     font-weight: 400;
@@ -251,12 +322,4 @@ line-height: 20px;
     color: #000000;
 }
 
-.button__contact__us{
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: center;
-    color: #E06733;
-}
+/* end footer */
