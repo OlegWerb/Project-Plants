@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2
+html, body, div, span, applet, object, iframe, h1, h2,
 h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -46,6 +46,7 @@ table {
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -121,7 +122,7 @@ color: #010201;
 /* end header */
 /* start welcome */
 
-.welcome{
+#welcome{
     background-color: #EDF2EC;
     
 }
@@ -202,14 +203,17 @@ h1{
 }
 
 h2{
-    padding-right: 142px;
-    padding-bottom: 40px;
     color: #499A18;
     font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+}
+
+.h2__about{
+    padding-right: 142px;
+    padding-bottom: 40px;
 }
 
 .img__flower__pot{
@@ -226,12 +230,51 @@ h2{
 
 /* end about */
 /* start service */
-
-.service{
+           
+#service{
     background-color: #EDF2EC;
 }
 
+.service__content{
+    display: flex;
+    padding: 40px 150px 90px 0px;    
+}
+
+.service__title{
+    padding-right: 142px;
+}
+
+.service__button{
+    display: flex;
+    justify-content: space-between;
+    width: 559px;
+    height: 50px;
+    padding-top: 29px;
+}
+
+.rectangle__button{
+    box-sizing: border-box;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    align-self: baseline;
+    
+}
+
+.layout__3column{
+    display: flex;
+    max-width: 1222px;
+    margin: 0 auto;
+    background-color: #EDF2EC;
+    padding-bottom: 121px;
+    
+}
+
 .service__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -240,13 +283,33 @@ h2{
     color: #717171;
 }
 
+.img__block{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.under__img{
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
 .name__block{
+    text-align: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #E06733;
+}
+
+.text__block{
+    text-align: center;
+    padding-bottom: 36px;
+    padding-top: 10px;
+}
+
+.planting__block{
+    padding-top: 55px;
 }
 
 /* end service */
@@ -279,7 +342,7 @@ button{
     color: #000000;
 }
 
-.prices{
+#prices{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -303,7 +366,13 @@ line-height: 20px;
 /* end prices */
 /* start contacts */
 
+.contacts__wrapper{
+    display: flex;
+}
+
 .contact__us{
+    padding-top: 60px;
+    text-align: center;
     font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 700;
@@ -312,14 +381,35 @@ line-height: 20px;
     color: #499A18;
 }
 
+.container__block{
+    padding-top: 148px;
+    padding-left: 64px;
+    height: 50px;
+    width: 450px;
+    background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.women__contact{
+    padding-top: 53px;
+}
+
 /* end contacts */
 /* start footer */
 
 .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
     color: #000000;
+}
+
+.rss{
+    color: #000000;
+    text-decoration-line: none
 }
 
 /* end footer */
