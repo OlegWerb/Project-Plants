@@ -87,8 +87,8 @@ body{
 }
 
 .logo{
-text-decoration-line: none;
-color: #010201;
+    text-decoration-line: none;
+    color: #010201;
 }
 
 .nav{
@@ -97,7 +97,7 @@ color: #010201;
 }
 
 .header__item{
-    margin-right: 46px;
+    margin-right: 47px;
 }
 
 .header__item:last-child{
@@ -199,7 +199,7 @@ h1{
 }
 
 .about__content{
-    padding: 161px 153px 155px 0px;
+    padding: 156px 153px 155px 0px;
 }
 
 h2{
@@ -217,7 +217,7 @@ h2{
 }
 
 .img__flower__pot{
-    padding-top: 93px;
+    padding-top: 88px;
     padding-bottom: 94px;
 }
 
@@ -237,7 +237,9 @@ h2{
 
 .service__content{
     display: flex;
-    padding: 40px 150px 90px 0px;    
+    padding: 40px 75px 179px 0px;
+    width: 1082px;
+    height: 94px; 
 }
 
 .service__title{
@@ -247,9 +249,9 @@ h2{
 .service__button{
     display: flex;
     justify-content: space-between;
-    width: 559px;
+    width: 822px;
     height: 50px;
-    padding-top: 29px;
+    padding-top: 25px;
 }
 
 .rectangle__button{
@@ -302,18 +304,26 @@ h2{
     color: #E06733;
 }
 
-.text__block{
+.text__block2{
     text-align: center;
     padding-bottom: 36px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .planting__block{
-    padding-top: 55px;
+    padding-top: 54px;
 }
 
 /* end service */
 /* start prices */
+
+.prices__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 115px;
+
+}
 
 button{
     font-family: 'Inika', serif;
@@ -324,7 +334,38 @@ button{
     color: #E06733;
 }
 
+ .button__rectangle__callus{
+    padding-top: 29px;
+ }
+
+ .rectangle__5{
+    box-sizing: border-box;
+    width: 332px;
+    height: 282.01px;
+    left: 109px;
+    top: 149px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+ }
+
+ .item__container{
+    padding: 34px 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 332px;
+    height: 282.01px;
+ }
+
 .button__contact__us{
+    box-sizing: border-box;
+    width: 162px;
+    height: 50px;
+    left: 1169px;
+    top: 181.01px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
     font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 700;
@@ -335,11 +376,23 @@ button{
 }
 
 .text__call__us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     text-align: right;
     color: #000000;
+}
+
+.title__call__us{
+    width: 452px;
+    height: 103px;
+}
+
+.leaf__prices{
+    padding-top: 39px;
 }
 
 #prices{
@@ -351,7 +404,9 @@ button{
     color:#000000;
 }
 
-.prices_left_bar{
+.prices__left__bar{
+    padding-right: 438px;
+    height: 391.01px;
     font-weight: 700;
     font-size: 40px;
     line-height: 58px;
@@ -359,19 +414,40 @@ button{
     color: #000000; 
 }
 .prices__items{
-font-size: 20px;
-line-height: 20px;
+    padding-top: 60px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.item_like_button{
+    padding-left: 40px;
+}
+
+.prices__title{
+    padding-right: 208px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
 }
 
 /* end prices */
 /* start contacts */
 
+#contacts{
+    background-color: #EDF2EC;;
+} 
+
 .contacts__wrapper{
     display: flex;
+    justify-content: space-between;
 }
 
 .contact__us{
-    padding-top: 60px;
+    padding-top: 46px;
+    padding-left: 39px;
     text-align: center;
     font-family: 'Inika', serif;
     font-style: normal;
@@ -382,16 +458,25 @@ line-height: 20px;
 }
 
 .container__block{
-    padding-top: 148px;
-    padding-left: 64px;
-    height: 50px;
-    width: 450px;
-    background-color: #D6E7D2;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 139px;
+    padding-left: 239px;
+}
+
+.contacts__container{
+    width: 204px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+
 }
 
 .women__contact{
-    padding-top: 53px;
+    padding-top: 43px;
 }
 
 /* end contacts */
