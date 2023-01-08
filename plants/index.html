@@ -16,11 +16,11 @@
   <header class="header">
     <div class="wrapper">
       <div class="header__logo">
-        <a href="/" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
+        <a href="#welcome" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
         <nav class="header__nav">
           <ul class="nav">
             <li class="header__item"><a href="#welcome" class="nav__link__home">Home</a></li>
-            <li class="header__item"><a href="#about" class="nav__link">About Us</a></li>
+            <li class="header__item"><a href="#about" class="nav__link">About us</a></li>
             <li class="header__item"><a href="#service" class="nav__link">Service</a></li>
             <li class="header__item"><a href="#prices" class="nav__link">Price</a></li>
             <li class="header__item"><a href="#contacts" class="nav__link">Contacts</a></li>
@@ -69,9 +69,9 @@
           <h2 class="h2_service">Service and our projects</h2>  
         </div>
         <div class="service__button">
-          <button class="rectangle__button">Gardens</button>
-          <button class="rectangle__button">Lawn</button>
-          <button class="rectangle__button">Planting</button>
+          <div class="button__correct"><button class="rectangle__button">Gardens</button></div>
+          <div class="button__correct"><button class="rectangle__button">Lawn</button></div>
+          <div><button class="rectangle__button">Planting</button></div>
         </div>
       </div>
       <div class="layout__3column">
@@ -80,42 +80,42 @@
             <img src="./img/first.jpg" class="img__block" alt="garden care" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Garden care</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
           <div class="planting2__block">
             <img src="./img/first (1).jpg" class="img__block" alt="planting" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Planting</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
           <div class="lawn__care__block">
             <img src="./img/first (2).jpg" class="img__block" alt="lawn care" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Lawn care</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
           <div class="planting__block">
             <img src="./img/first (3).jpg" class="img__block" alt="planting" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Planting</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
           <div class="planting__block">
             <img src="./img/first (4).jpg" class="img__block" alt="garden care" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Garden care</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>
           </div>
           <div class="planting__block">
             <img src="./img/first (5).jpg" class="img__block" alt="planting" width=329 height=350>
             <div class="under__img">
               <p class="name__block">Planting</p>
-              <p class="text__block">Lorem ipsum dolor sit amet</p>
+              <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
         </div>
@@ -125,29 +125,37 @@
 
   <section id="prices">
     <div class="wrapper">
-      <div class="prices__left__bar">
-          <b>Prices</b>
-          <div class="prices__item">
-              <div class="prices__items">
-                  <div class="item_like_button"><b>Basics</b></div>
-                  <div class="item_like_button"><b>Standard</b></div>
-                  <div class="item_like_button"><b>Pro care</b></div>
-              </div>
+      <div class="prices__wrapper">
+        <div class="prices__left__bar">
+            <div class="prices__title">Prices</div>
+            <div class="prices__item">
+                <div class="prices__items">
+                  <div class="rectangle__5">
+                    <div class="item__container">
+                      <div class="item_like_button"><b>Basics</b></div>
+                      <div class="item_like_button"><b>Standard</b></div>
+                      <div class="item_like_button"><b>Pro care</b></div>
+                    </div>  
+                  </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="text__call__us">
+          <div class="title__call__us">Our best <span class="green_text">gardeners</span> are ready to help you</div>
+          <div class="button__rectangle__callus"><a href="#Home"><button class="button__contact__us">Сontact us</button></a></div>
+          <div class="leaf__prices"><img alt="leafs" src="./img/leafs.jpg" width=152 
+            height=174.99>
           </div>
-      </div>
-      <div class="text__call__us">
-          <b>Our best <span class="green_text">gardeners</span> are ready to help you</b>
-          <button class="button__contact__us">Сontact us</button>  
-      <img alt="leafs" src="./img/leafs.jpg" width=152 
-      height=174.99>
-      </div>
+        </div>    
+      </div>  
     </div>  
   </section>
 
   <section id="contacts">
     <div class="wrapper">
       <div class="contacts__wrapper">
-        <img src="./img/contact_woman 1.jpg" class="women__contact" alt="woman with flower" width=400 
+        <img src="./svg/contact_woman 1.svg" class="women__contact" alt="woman with flower" width=400 
         height=496.99>
         <h2 class="contact__us">Contact us</h2>
         <div class="container__block">
