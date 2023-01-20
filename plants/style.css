@@ -649,14 +649,122 @@ button{
         padding-top: 34px;
     }
 
+    /* end media welcome */
+    /* start media about */
+
     #about{
         width: 768px;
         height: 783px;
     }
 
-    #servise{
+    .about__wrapper{
+        flex-direction: column;
+    }
+
+    .about__content {
+        padding: 39px 0px 0px 0px;
+    }
+
+    .img__flower__pot768{
+        width: 250px;
+        height: 258px;
+    }
+
+    .img__flower__pot {
+        padding-top: 40px;
+        padding-left: 242px;
+    }
+
+    .h2__about{
+        padding-left: 139px;
+        padding-bottom: 51px;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .text_content{
+        width: 668px;
+        height: 208px;
+        padding-left: 36px;
+        font-size: 20px;
+    }
+
+    /* end media about */
+    /* start media service */
+
+    #service{
         width: 768px;
         height: 1780px;
     }
+
+    .service__title{
+        padding-left: 35px;
+        padding-top: 23px;
+    }
+
+    .service__content{
+        flex-direction: column;
+    }
+
+    .service__button{
+        width: 594px;
+        height: 50px;
+        padding-top: 43px;
+        padding-left: 36px;
+    }
+
+    .service__block{
+        width: 703px;
+        height: 1426px;
+        padding-top: 68px;
+        padding-left: 35px;
+    }
+
+    .planting__block1{
+        width: 281px;
+        height:450px;
+        margin-bottom: 38px;
+    }
+
+    .planting__block2{
+        padding-top: 2px;
+        width: 281px;
+        height:450px;
+    }
+
+    .img__block{
+        width: 280px;
+        height: 350px;
+    }
+
+    .planting-block768{
+        
+    }
+    /*end media service*/
+
+    .h2_service{
+        width: 306px;
+        height: 94px;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    #prices{
+        width: 768px;
+        height: 585px;
+    }
+
+    #contacts{
+        width: 768px;
+        height: 739px;
+    }
+
+    #footer{
+        width: 768px;
+        height: 181px;
+    }
+
+    
 }
 /* end media */
