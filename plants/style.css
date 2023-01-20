@@ -47,6 +47,7 @@ table {
 html{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -554,7 +555,12 @@ button{
     color: #000000;
 }
 
-.rss{
+.rss_year{
+    color: #000000;
+    text-decoration-line: none
+}
+
+.rss_school{
     color: #000000;
     text-decoration-line: none
 }
@@ -567,11 +573,13 @@ button{
 
     .wrapper {
         padding: 0 15px;
+        max-width: 768px;
     }
 
     body {
         width: 768px;
     }
+
 
     /* start media header */
 
@@ -786,16 +794,65 @@ button{
         padding-top: 21px;
     }
     /* end media prices */
+    /* start media contacts */
+
+    .contacts__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
 
     #contacts{
         width: 768px;
         height: 739px;
     }
 
+    .contacts__container {
+        margin-left: 145px;
+    }
+
+    .women__contact{
+        width: 200px;
+        height: 248.49px;
+        margin-top: 247px;
+        margin-left: 279px;
+        padding-top: 0px;
+    }
+
+    .contact__us{
+        order: 1;
+        padding-left: 0px;
+    }
+
+    /* end media contacts */
+    /* start media footer */
+
     #footer{
         width: 768px;
         height: 181px;
     }
+
+    .content{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    a.rss_year {
+        text-align: center;
+    }
+
+    a.rss_school {
+        text-align: center;
+    }
+    
+    .social__list {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 188px;
+        height: 50px;
+        margin-left: 275px;
+}
 
     
 }
