@@ -543,10 +543,6 @@ button{
 /* end contacts */
 /* start footer */
 
-.footer{
-    /* width: 1440px; */
-    /* margin: auto; */
-}
 
 .content{
     display: flex;
@@ -738,10 +734,6 @@ button{
         height: 350px;
     }
 
-    .planting-block768{
-        
-    }
-    /*end media service*/
 
     .h2_service{
         width: 306px;
@@ -750,10 +742,50 @@ button{
         line-height: 46px;
     }
 
+    /* end media service */
+    /* start media prices */
+
     #prices{
         width: 768px;
         height: 585px;
     }
+
+    .prices__title{
+        padding-right: 157px;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .prices__items {
+        padding-left: 35px;
+    }
+
+    .prices__left__bar{
+        padding-right: 0px;
+    }
+
+    .title__call__us{
+        width: 296px;
+        height: 77.41px;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+    }
+
+    .text__call__us{
+        padding-top: 100px;
+        padding-right: 33px;
+    }
+
+    .button__rectangle__callus {
+        padding-top: 14px;
+    }
+
+    .leaf__prices{
+        padding-top: 21px;
+    }
+    /* end media prices */
 
     #contacts{
         width: 768px;
