@@ -12,7 +12,7 @@
     <title>Plants</title>
 </head>
 
-<body>
+<body class="body">
   <header class="header">
     <div class="wrapper">
       <div class="header__logo">
@@ -20,12 +20,19 @@
         <nav class="header__nav">
           <ul class="nav">
             <li class="header__item"><a href="#welcome" class="nav__link__home">Home</a></li>
-            <li class="header__item"><a href="#about" class="nav__link">About us</a></li>
-            <li class="header__item"><a href="#service" class="nav__link">Service</a></li>
-            <li class="header__item"><a href="#prices" class="nav__link">Price</a></li>
-            <li class="header__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+            <li class="header__item"><a href="#about" class="nav__link nav__link__au768">About us</a></li>
+            <li class="header__item"><a href="#service" class="nav__link nav__link__ser768">Service</a></li>
+            <li class="header__item"><a href="#prices" class="nav__link nav__link__price768">Price</a></li>
+            <li class="header__item"><a href="#contacts" class="nav__link nav__link__cont768">Contacts</a></li>
           </ul>
         </nav>
+        <!-- <div class="header__burger burger">
+          <span class="burger__line burger__line__one"></span>
+          <span class="burger__line burger__line__two"></span>
+          <span class="burger__line burger__line__three"></span>
+          <span class="burger__line burger__line__four"></span>
+
+        </div> -->
       </div>  
     </div>
   </header>
@@ -34,14 +41,13 @@
     <div class="wrapper">
       <div class="wrapper__welcome">
         <div id="img__leaf">
-        <img alt="leaf" src="./svg/leafs.svg" width=448.8 
-        height=407.36>
+        <img class="leaf__svg" alt="leaf" src="./svg/leafs.svg">
         </div>
         <div class="promo__content">
           <div class="h1__block">
             <h1>We grow <span class="green_text"> plants </span> and give you oxygen</h1></div>
           <div class="text__block"><p class="text__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
-          <div class="btn__learn__more"><a href="#Home"><button class="learn__more">LEARN MORE</button></a></div>
+          <div class="btn__learn__more"><a href="#service"><button class="learn__more">LEARN MORE</button></a></div>
         </div>
       </div>
     </div>
@@ -55,8 +61,7 @@
             <p class="text_content">Lorem Ipsum is simply dummy text of the printing ann the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only fiv7e centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
         </div>
         <div class="img__flower__pot">
-            <img alt="flower_pot" src="./img/houseplant 1.jpg" width=464;
-            height=479>
+            <img class="img__flower__pot768" alt="flower_pot" src="./img/houseplant-1.jpg">
         </div>
       </div>
     </div>
@@ -76,43 +81,43 @@
       </div>
       <div class="layout__3column">
         <div class="service__block">
-          <div class="garden__care__block">
-            <img src="./img/first.jpg" class="img__block" alt="garden care" width=329 height=350>
+          <div class="planting__block1">
+            <img src="./img/first.jpg" class="img__block" alt="garden care" >
             <div class="under__img">
               <p class="name__block">Garden care</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
-          <div class="planting2__block">
-            <img src="./img/first (1).jpg" class="img__block" alt="planting" width=329 height=350>
+          <div class="planting__block1">
+            <img src="./img/first-1.jpg" class="img__block" alt="planting" >
             <div class="under__img">
               <p class="name__block">Planting</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
-          <div class="lawn__care__block">
-            <img src="./img/first (2).jpg" class="img__block" alt="lawn care" width=329 height=350>
+          <div class="planting__block1 planting-block768">
+            <img src="./img/first-2.jpg" class="img__block" alt="lawn care" >
             <div class="under__img">
               <p class="name__block">Lawn care</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
-          <div class="planting__block">
-            <img src="./img/first (3).jpg" class="img__block" alt="planting" width=329 height=350>
+          <div class="planting__block2">
+            <img src="./img/first-3.jpg" class="img__block" alt="planting" >
             <div class="under__img">
               <p class="name__block">Planting</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>  
           </div>
-          <div class="planting__block">
-            <img src="./img/first (4).jpg" class="img__block" alt="garden care" width=329 height=350>
+          <div class="planting__block2">
+            <img src="./img/first-4.jpg" class="img__block" alt="garden care" >
             <div class="under__img">
               <p class="name__block">Garden care</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
             </div>
           </div>
-          <div class="planting__block">
-            <img src="./img/first (5).jpg" class="img__block" alt="planting" width=329 height=350>
+          <div class="planting__block2">
+            <img src="./img/first-5.jpg" class="img__block" alt="planting" >
             <div class="under__img">
               <p class="name__block">Planting</p>
               <p class="text__block2">Lorem ipsum dolor sit amet</p>
@@ -127,14 +132,14 @@
     <div class="wrapper">
       <div class="prices__wrapper">
         <div class="prices__left__bar">
-            <div class="prices__title">Prices</div>
+            <h2 class="prices__title">Prices</h2>
             <div class="prices__item">
                 <div class="prices__items">
                   <div class="rectangle__5">
                     <ul class="item__container">
                       <li class="item_like_button">Basics<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
                       <li class="item_like_button">Standard<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
-                      <li class="item_like_button">Pro Care<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
+                      <li class="item_like_button">Pro care<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
                     </ul>      
                   </div>  
                 </div>
@@ -144,9 +149,7 @@
         <div class="text__call__us">
           <div class="title__call__us">Our best <span class="green_text">gardeners</span> are ready to help you</div>
           <div class="button__rectangle__callus"><a href="#Home"><button class="button__contact__us">Сontact us</button></a></div>
-          <div class="leaf__prices"><img alt="leafs" src="./img/leafs.jpg" width=152 
-            height=174.99>
-          </div>
+          <div class="leaf__prices"><img alt="leafs" class="leaf__prices" src="./svg/leafs_prices.svg"></div>
         </div>    
       </div>  
     </div>  
@@ -155,24 +158,22 @@
   <section id="contacts">
     <div class="wrapper">
       <div class="contacts__wrapper">
-        <img src="./svg/contact_woman 1.svg" class="women__contact" alt="woman with flower" width=400 
-        height=496.99>
+        <img src="./svg/contact_woman-1.svg" class="women__contact" alt="woman with flower" >
         <h2 class="contact__us">Contact us</h2>
-        <div class="container__block">
-          <div class="contacts__container">City</div>
-        </div>
+        <div class="contacts__container">City<img src="./svg/accordion_btn.svg" class="contacts__btn__accordion" alt="accordion"></div>
+        
       </div>  
     </div>
   </section>
 
-  <footer>
+  <footer class="footer">
     <div class="wrapper">
       <div class="content">
-          <a href="https://github.com/OlegWerb?tab=repositories" class="rss" title="my_github" target="_blank">@ 2022 github</a>
-          <a href="https://rs.school/js-stage0" class="rss" title="rs-school" target="_blank">Rolling Scopes School</a> 
+          <a href="https://github.com/OlegWerb?tab=repositories" class="rss_year" title="my_github" target="_blank">&#169&nbsp;&nbsp;&nbsp; 2022&nbsp;&nbsp;&nbsp; github</a>
+          <a href="https://rs.school/js-stage0" class="rss_school" title="rs-school" target="_blank">Rolling Scopes School</a> 
           <div class="social__list">
               <a href="http://instagram.com" class="insta" title="instagram_link" target="_blank"><img src="./png/insta.png" alt="vector_instagram"></a>
-              <a href="http://facebook.com" class="facebook" title="facebook_link" target="_blank"><img src="./png/fb 1.png" alt="vector_facebook"></a>
+              <a href="http://facebook.com" class="facebook" title="facebook_link" target="_blank"><img src="./png/fb-1.png" alt="vector_facebook"></a>
               <a href="http://twitter.com" class="twitter" title="twitter_link" target="_blank"><img src="./png/tw.png" alt="vector_twitter"></a>
               <a href="http://pinterest.com" class="pinterest" title="pinterest_link" target="_blank"><img src="./png/pin.png" alt="vector_pinterest"></a>
           </div>
