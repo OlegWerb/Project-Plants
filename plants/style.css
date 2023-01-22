@@ -567,7 +567,7 @@ button{
 
 /* end footer */
 
-/* start media */
+/* start media768 */
 
 @media (max-width: 768px){
 
@@ -581,7 +581,7 @@ button{
     }
 
 
-    /* start media header */
+    /* start media768 header */
 
     .header{
         width: 768px;
@@ -604,8 +604,8 @@ button{
         margin-right: 36px;
     }
 
-    /* end media header */
-    /* start media welcome */
+    /* end media768 header */
+    /* start media768 welcome */
 
     .promo__content{
         width: 346px;
@@ -653,8 +653,8 @@ button{
         padding-top: 34px;
     }
 
-    /* end media welcome */
-    /* start media about */
+    /* end media768 welcome */
+    /* start media768 about */
 
     #about{
         width: 768px;
@@ -694,8 +694,8 @@ button{
         font-size: 20px;
     }
 
-    /* end media about */
-    /* start media service */
+    /* end media768 about */
+    /* start media768 service */
 
     #service{
         width: 768px;
@@ -750,8 +750,8 @@ button{
         line-height: 46px;
     }
 
-    /* end media service */
-    /* start media prices */
+    /* end media768 service */
+    /* start media768 prices */
 
     #prices{
         width: 768px;
@@ -793,8 +793,8 @@ button{
     .leaf__prices{
         padding-top: 21px;
     }
-    /* end media prices */
-    /* start media contacts */
+    /* end media768 prices */
+    /* start media768 contacts */
 
     .contacts__wrapper {
         display: flex;
@@ -824,8 +824,8 @@ button{
         padding-left: 0px;
     }
 
-    /* end media contacts */
-    /* start media footer */
+    /* end media768 contacts */
+    /* start media768 footer */
 
     #footer{
         width: 768px;
@@ -856,4 +856,249 @@ button{
 
     
 }
-/* end media */
+/* end media768 */
+
+@media (max-width: 380px){
+/* start media380 */
+
+    .header {
+        width: 380px;
+        height: 96px;
+    }
+
+    .logo{
+        padding-left: 8px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .h1__block{
+        padding-top: 26px;
+    }
+
+    .text__block {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+
+    .learn__more{
+        font-size: 10px;
+        line-height: 20px;
+        width: 100px;
+        height: 34.14px;
+    }
+
+    .h2__about{
+        padding: 0px 0px 0px 0px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .about__content{
+        padding-top: 32px;
+    }
+
+    #img__leaf {
+        display: none;
+    }
+
+    .wrapper__welcome {
+        padding-left: 10px;
+        flex-direction: row;
+    }
+
+    .btn__learn__more {
+        padding-top: 26px;
+    }
+
+    .text_content {
+        width: 330px;
+        height: 228.38px;
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 11px;
+        padding-top: 11px;
+    }
+
+    .img__flower__pot768{
+        width: 150px;
+        height: 147px;
+    }
+
+    .img__flower__pot {
+        padding-top: 13px;
+        padding-left: 102px;
+    }
+    
+    .h2_service{
+        font-size: 25px;
+        line-height: 33px;
+        padding-right: 38px;
+    }
+
+    .rectangle__button{
+        font-size: 15px;
+        line-height: 20px;
+        width: 121px;
+        height: 35px;
+    }
+
+    .service__button{
+        flex-wrap: wrap;
+        width: 292px;
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-right: 29px;
+    }
+
+    .service__title {
+        padding-left: 11px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .service__block{
+        padding-top: 40px;
+    }
+
+    .planting__block1{
+        margin-bottom: 32px;
+    }
+
+    .planting__block2 {
+        margin-bottom: 35px;
+    }
+
+    .prices__title {
+        line-height: 30px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+   
+    .prices__wrapper{
+        padding-top: 20px;
+    }
+
+    .rectangle__5{
+        width: 260px;
+        height: 238px;
+    }
+
+    .item__container{
+        width: 180px;
+        height: 177px;
+        height: 247px;
+    }
+
+    .item_like_button{
+        font-size: 15px;
+        line-height: 20px;
+        width: 180px;
+        height: 49.72px;
+    }
+    
+    .leaf__prices{
+        display:none;
+    }
+
+    .prices__wrapper{
+        flex-direction: column;
+    }
+
+    .prices__items{
+        padding-top: 34px;
+    }
+
+    .title__call__us{
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        height: 59px;
+        width: 280px;
+    }
+
+    .prices__left__bar{
+        height: 227px;
+    }
+
+    .button__contact__us {  
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .button__rectangle__callus {
+        padding-right: 82px;
+    }
+
+    .contact__us{
+        padding-top: 0px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .contacts__container {
+        width: 300px;
+        height: 50px;
+        margin-left: 23px;
+        margin-top: 76px;
+    }
+
+    .women__contact{
+        width: 100px;
+        height: 124.25px;
+        margin-top: 131px;
+        margin-left: 123px;
+    }
+
+    .social__list{
+        margin-left: 83px;
+    }
+
+    .content {
+        padding-top: 6px;
+    }
+
+    #welcome {
+        width: 380px;
+        height: 300px;
+    }
+
+    #about {
+        width: 380px;
+        height: 516px;
+    }
+
+    #service {
+        width: 380px;
+        height: 3150px;
+    }
+
+    #prices {
+        width: 380px;
+        height: 512px;
+    }
+
+    #contacts {
+        width: 380px;
+        height: 445px;
+    }
+
+    .footer {
+        width: 380px;
+        height: 146px;
+    }
+
+}
