@@ -71,10 +71,6 @@ body{
 /* start header */
 
 .header{
-    /* margin: auto; */
-    /* background-color: #EDF2EC;
-    width: 1440px;
-    height: 134px; */
     font-family: 'Inika', serif;
     font-style: normal;
     font-weight: 400;
@@ -131,8 +127,6 @@ body{
 
 #welcome{
     background-color: #EDF2EC;
-    /* width: 1440px; */
-    /* margin: auto; */
 }
 
 .wrapper__welcome{
@@ -178,6 +172,7 @@ h1{
 
 .btn__learn__more{
     padding-top: 48px;
+    width: 354px;
 }
 
 .learn__more{
@@ -203,8 +198,6 @@ h1{
 /* start about */
 
 #about{
-    /* width: 1440px; */
-    /* margin: auto; */
     background-color: #FFFFFF;
 }
 
@@ -246,8 +239,6 @@ h2{
 /* start service */
            
 #service{
-    /* width: 1440px; */
-    /* margin: auto; */
     background-color: #EDF2EC;
 }
 
@@ -437,8 +428,6 @@ button{
 }
 
 #prices{
-    /* width: 1440px; */
-    /* margin: auto; */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -488,8 +477,6 @@ button{
 /* start contacts */
 
 #contacts{
-    /* width: 1440px; */
-    /* margin: auto; */
     background-color: #EDF2EC;;
 } 
 
@@ -619,14 +606,14 @@ button{
     }
 
     .wrapper__welcome{
-        width: 768px;
+        width: 752px;
         height: 420px;
         display:flex;
         flex-direction: row-reverse;
     }
 
     #img__leaf {
-        padding: 38px 69px 62.64px 40px;
+        padding: 38px 69px 62.64px 24px;
     }
 
     .h1__block{
@@ -709,6 +696,7 @@ button{
 
     .service__content{
         flex-direction: column;
+        width: 741px;
     }
 
     .service__button{
@@ -861,6 +849,10 @@ button{
 @media (max-width: 380px){
 /* start media380 */
 
+    .body{
+        width: 380px
+    }
+
     .header {
         width: 380px;
         height: 96px;
@@ -914,6 +906,7 @@ button{
     .wrapper__welcome {
         padding-left: 10px;
         flex-direction: row;
+        width: 355px;
     }
 
     .btn__learn__more {
@@ -927,6 +920,10 @@ button{
         line-height: 25px;
         padding-left: 11px;
         padding-top: 11px;
+    }
+
+    .promo__content{
+        width:352px;
     }
 
     .img__flower__pot768{
@@ -965,6 +962,10 @@ button{
         padding-left: 11px;
         padding-top: 0px;
         padding-bottom: 5px;
+    }
+
+    .service__content{
+        width: 363px;
     }
 
     .service__block{
