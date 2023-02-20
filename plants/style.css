@@ -364,17 +364,11 @@ button{
 
  .rectangle__5{
     box-sizing: border-box;
-    width: 332px;
-    height: 282.01px;
-    left: 109px;
-    top: 149px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
  }
 
  .item__container{
-    width: 250px;
-    height: 50px;
     background: white;
     border-radius: 20px;
     padding: 34px 41px;
@@ -382,7 +376,6 @@ button{
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    width: 332px;
     height: 282.01px;
  }
 
@@ -472,6 +465,79 @@ button{
     line-height: 48px;
     color: #000000;
 }
+
+.list-basics-hidden{
+    visibility:hidden;
+}
+
+
+.list-basics-style{
+    width: 250px;
+    background: #D6E7D2;
+    border-radius: 20px;
+}
+
+.line__prices{
+    width: 164px;
+    border: 0.5px solid #AEA1A1;
+    margin: 12px 46px 0px 40px;
+}
+
+.content__open__basics{
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    color: #717171;
+    text-align: start;
+    padding: 10px 41px 10px 40px;
+}
+
+
+.price__dollar{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E06733;
+    padding-right: 127px;
+}
+
+.price__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.button__order{
+    width: 86px;
+    height: 25px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0px 12px 39px;
+}
+
+.btn__order{
+    padding: 0px 0px 0px 0px;
+}
+
+.btn__order__text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.basics__text{
+    float: left;
+    padding: 16px 0px 0px 40px;
+}
+
+.accordion__open{
+
+    padding: 20px 40px 0 0;
+}
+
 
 /* end prices */
 /* start contacts */
@@ -846,6 +912,69 @@ button{
 }
 /* end media768 */
 
+@media (min-width: 381px) and (max-width: 414px){
+    .burger-btn {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 40px;
+        margin-right: 56px;
+        margin-bottom: 15px;
+        
+    } 
+
+
+    .burger-line {
+        border: 2px solid #717171;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        transition: .4s all linear;
+    }
+
+   
+
+    .nav {
+        position: absolute;
+        left: 0;
+        top: -575px;
+        flex-direction: column;
+        padding: 30px 15px;
+        width: 100%;
+        visibility: hidden;
+        background-color: darkseagreen;
+        z-index: 3;
+        transform: translateY(0);
+        transition-property: transform, visibility;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+
+    }
+
+    .nav__header--activ{
+        visibility: visible;
+		transform: translateY(575px);
+    }
+
+    .burger-btn--activ{
+        position: relative;
+        width: 40px;
+        height: 24px;
+        border: none;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .burger-btn--activ .burger-line-first, .burger-btn--activ .burger-line-fourth{
+        opacity: 0;
+    }
+
+
+}
+
+
 @media (max-width: 380px){
 /* start media380 */
 
@@ -864,8 +993,61 @@ button{
         line-height: 21px;
     }
 
-    .header__nav {
-        display: none;
+    .burger-btn {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 40px;
+        margin-left: 140px;
+        
+    } 
+
+
+    .burger-line {
+        border: 2px solid #717171;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        transition: .4s all linear;
+    }
+
+   
+
+    .nav {
+        position: absolute;
+        left: 0;
+        top: -575px;
+        flex-direction: column;
+        padding: 30px 15px;
+        width: 100%;
+        visibility: hidden;
+        background-color: darkseagreen;
+        z-index: 3;
+        transform: translateY(0);
+        transition-property: transform, visibility;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+
+    }
+
+    .nav__header--activ{
+        visibility: visible;
+		transform: translateY(575px);
+    }
+
+    .burger-btn--activ{
+        position: relative;
+        width: 40px;
+        height: 24px;
+        border: none;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .burger-btn--activ .burger-line-first, .burger-btn--activ .burger-line-fourth{
+        opacity: 0;
     }
 
     h1 {
@@ -949,6 +1131,11 @@ button{
         height: 35px;
     }
 
+
+    .button__correct {
+        padding-bottom: 10px;
+    }
+
     .service__button{
         flex-wrap: wrap;
         width: 292px;
@@ -965,6 +1152,7 @@ button{
     }
 
     .service__content{
+        padding-top: 33px;
         width: 363px;
     }
 
