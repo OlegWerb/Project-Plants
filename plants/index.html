@@ -16,23 +16,23 @@
   <header class="header">
     <div class="wrapper">
       <div class="header__logo">
-        <a href="#welcome" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
+        <a href="#" class="logo"><img src="./png/logo_vector.png" alt="logo">Plants</a>  
+        
         <nav class="header__nav">
           <ul class="nav">
-            <li class="header__item"><a href="#welcome" class="nav__link__home">Home</a></li>
+            <li class="header__item"><a href="#" class="nav__link__home">Home</a></li>
             <li class="header__item"><a href="#about" class="nav__link nav__link__au768">About us</a></li>
             <li class="header__item"><a href="#service" class="nav__link nav__link__ser768">Service</a></li>
             <li class="header__item"><a href="#prices" class="nav__link nav__link__price768">Price</a></li>
             <li class="header__item"><a href="#contacts" class="nav__link nav__link__cont768">Contacts</a></li>
           </ul>
+          <div class="burger-btn">
+            <span class="burger-line burger-line-first"></span>
+            <span class="burger-line burger-line-second"></span>
+            <span class="burger-line burger-line-third"></span>
+            <span class="burger-line burger-line-fourth"></span>
+          </div>
         </nav>
-        <!-- <div class="header__burger burger">
-          <span class="burger__line burger__line__one"></span>
-          <span class="burger__line burger__line__two"></span>
-          <span class="burger__line burger__line__three"></span>
-          <span class="burger__line burger__line__four"></span>
-
-        </div> -->
       </div>  
     </div>
   </header>
@@ -137,9 +137,25 @@
                 <div class="prices__items">
                   <div class="rectangle__5">
                     <ul class="item__container">
-                      <li class="item_like_button">Basics<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
-                      <li class="item_like_button">Standard<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
-                      <li class="item_like_button">Pro care<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion"></li>
+                      <li class="item_like_button" id="accordion-btn">Basics<img src="./svg/accordion_btn.svg" class="accordion" alt="accordion" ></li>
+                        <!-- <li class="list-basics-style"> -->
+                            
+                          <!-- <div class="basics__text">Basics</div>
+                          <img src="./svg/accordion_btn2.svg" class="accordion__open"> -->
+                          
+                          <!-- <div class="line__prices"></div>
+                          <p class="content__open__basics">
+                          Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                          <div class="price__dollar">$15<span class="price__text">/ per hour</span></div>
+                          <div class="btn__order"></div> 
+                            <div class="button__order">
+                              <span class="btn__order__text">Order</span>
+                            </div>
+                          </div>   -->
+                        
+                        <!-- </li>  -->
+                      <li class="item_like_button" id="accordion-btn">Standard<img src="./svg/accordion_btn.svg" class="accordion" data-name="accordion-btn" alt="accordion"></li>
+                      <li class="item_like_button" id="accordion-btn">Pro care<img src="./svg/accordion_btn.svg" class="accordion" data-name="accordion-btn" alt="accordion"></li>
                     </ul>      
                   </div>  
                 </div>
@@ -180,6 +196,6 @@
       </div>
     </div>  
   </footer>
-
+  <script src="./main.js"></script>
 </body>
 </html>
